@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice_api/screens/HomePage/student_data_screen.dart';
 import 'package:practice_api/screens/widgets/products_screen.dart';
 import 'package:practice_api/screens/widgets/slider.dart';
 
@@ -12,9 +13,10 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+        children: const [
           MySlider(),
-          ProductScreen(),
+          // ProductScreen(),
+          StudentDataScreen()
         ],
       ),
     );
